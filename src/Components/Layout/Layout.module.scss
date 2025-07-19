@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    box-sizing: border-box;
+    padding: 40px;
+    position: relative;
+    z-index: 1;
+}
+
+.sidebar {
+    width: 280px;
+    flex-shrink: 0;
+}
+
+.content {
+    flex: 1;
+    padding-left: 420px;
+    max-width: 100%;
+    transition: padding-left 0.3s ease;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .sidebar {
+        width: 100%;
+    }
+
+    .content {
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+
+}

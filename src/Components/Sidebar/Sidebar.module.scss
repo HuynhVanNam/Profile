@@ -1,0 +1,89 @@
+.sidebar {
+  position: fixed;
+  top: 10px;
+  left: 80px;
+  height: 100vh;
+  width: 400px;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: transparent;
+  z-index: 2;
+  box-sizing: border-box;
+}
+
+.intro h1 {
+  font-size: 50px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.9);
+  margin: 0;
+}
+
+.intro h2 {
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.intro p {
+  font-size: 15px;
+  color: rgba(224, 223, 246, 0.7);
+  line-height: 1.6;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+  font-weight: 200;
+}
+
+.nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav li a {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  color: #8892b0;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  padding-top: 30px;
+}
+
+.nav li a:hover {
+  color: #ffffff;
+}
+
+.socials {
+  display: flex;
+  gap: 28px;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  padding-bottom: 20px;
+  justify-content: center;
+}
+
+.socials a {
+  font-size: 26px;
+  color: #8892b0;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.socials a:hover {
+  color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    position: static; /* hoặc relative nếu cần */
+    width: 100%;
+    height: auto;
+    padding: 20px;
+  }
+}

@@ -1,0 +1,33 @@
+.footer {
+  padding: 0 2rem;
+}
+
+.footerTitle {
+  text-align: right;
+  padding-right: 50px;
+  color: #94a3b8;
+  font-size: 12px;
+  font-weight: 250;
+  margin-bottom: 50px;
+  font-family: 'Inter', sans-serif;
+}
+
+.footerTitle strong {
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .footerTitle {
+    text-align: center !important;
+    padding-right: 0 !important;
+    font-size: 10px;
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 480px) {
+  .footerTitle {
+    font-size: 10px;
+  }
+}
