@@ -13,13 +13,13 @@ function Projects() {
         </p>
         <p className={styles.buttonGroup}>
           <button>
-            <a href=" ">Web Demo</a>
+            <a href="https://namhuynh-profile.netlify.app">Web Demo</a>
             <div className={styles.arrowWrapper}>
               <div className={styles.arrow}></div>
             </div>
           </button>
           <button>
-           <a href=" ">Link GitHub</a>
+           <a href="https://github.com/HuynhVanNam/Profile">Link GitHub</a>
             <div className={styles.arrowWrapper}>
               <div className={styles.arrow}></div>
             </div>
