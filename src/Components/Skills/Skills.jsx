@@ -28,8 +28,7 @@ function Skills() {
         <h3 className={styles.skillTitle}>English Language Course</h3>
         <p className={styles.skillText}>
           Currently completing an English course focusing on communication skills (speaking, listening, reading and
-          writing) <br />
-          — Level: Intermediate (IELTS 5.0–5.5)
+          writing)
         </p>
       </div>
     </section>
