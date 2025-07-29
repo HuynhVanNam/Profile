@@ -14,9 +14,7 @@ const useSmoothScroll = () => {
         }
       }
     };
-
     document.addEventListener('click', handleClick);
-
     return () => {
       document.removeEventListener('click', handleClick);
     };
